@@ -17,6 +17,10 @@
       "dest": "/api/analyze.js"
     },
     {
+      "src": "/",
+      "dest": "/frontend/index.html"
+    },
+    {
       "src": "/(.*)",
       "dest": "/frontend/$1"
     }
